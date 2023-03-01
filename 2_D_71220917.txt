@@ -1,0 +1,9 @@
+def kuadrat(a,b):
+    hasil = a*b
+    return hasil
+
+a=int(input("masukkan sebuah angkah:"))
+b=int(input("masukkan sebuah angka:"))
+
+hasil_kuadrat=kuadrat(a,b)
+print(hasil_kuadrat)
